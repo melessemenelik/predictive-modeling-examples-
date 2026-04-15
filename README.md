@@ -14,7 +14,16 @@ A collection of regression and classification projects using **Scikit‑learn**,
 - Classification projects: customer churn, healthcare risk scoring  
 - Model evaluation: accuracy, precision, recall, RMSE, AUC  
 - Interpretable AI: SHAP and LIME examples  
-- Modular structure for easy extension  
+- Modular structure for easy extension
+
+├── data/               # Synthetic and sample datasets
+├── notebooks/          # Exploratory Data Analysis & experiments
+├── src/                # Modular Python scripts
+│   ├── preprocessing.py
+│   ├── models.py
+│   └── interpretation.py
+├── requirements.txt    # Library dependencies
+└── README.md           # Project documentation
 
 ## 🔄 Predictive Modeling Workflow
 
