@@ -42,12 +42,3 @@ git clone [https://github.com/melessemenelik/predictive-modeling-examples.git](h
 cd predictive-modeling-examples
 pip install -r requirements.txt
 python src/train_model.py --dataset housing
-
-🔮 Future Work
-[ ] Deep Learning Integration: Adding TabNet or Simple Neural Networks via PyTorch.
-
-[ ] Automated ML (AutoML): Implementing Optuna for automated hyperparameter tuning.
-
-[ ] API Deployment: Wrapping models in a FastAPI wrapper for real-time predictions.
-
-[ ] Cloud Integration: Adding scripts for AWS Sagemaker or Azure ML deployment.
