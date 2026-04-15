@@ -26,6 +26,7 @@ flowchart LR
     D --> E[Model Interpretation]
     E --> F[Insights & Deployment]
 
+📂 Repository Structure
 predictive-modeling-examples/
 ├── regression/              # Regression projects
 │   ├── housing_prices.py    # Housing price prediction
@@ -40,14 +41,23 @@ predictive-modeling-examples/
 ├── LICENSE                  # MIT License
 └── .gitignore               # Ignore build and environment files
 
-git clone https://github.com/melessemenelik/predictive-modeling-examples.git
+Organized modules for regression, classification, and interpretable AI workflows, with clear separation of datasets, dependencies, and documentation.
+
+🚀 Quickstart
+git clone https://github.com/melessemenelik/predictive-modeling-examples.git  
 cd predictive-modeling-examples
 pip install -r requirements.txt
 python regression/housing_prices.py
 
-- Add deep learning models (PyTorch, TensorFlow) for advanced tasks  
-- Integrate MLflow for experiment tracking and reproducibility  
-- Expand interpretable AI with counterfactual explanations and fairness metrics  
-- Add CI/CD pipelines for automated model deployment  
-- Include Docker setup for reproducible environments  
-- Build interactive dashboards with Plotly or Streamlit for model insights  
+🔮 Future Work
+Add deep learning models (PyTorch, TensorFlow) for advanced tasks
+
+Integrate MLflow for experiment tracking and reproducibility
+
+Expand interpretable AI with counterfactual explanations and fairness metrics
+
+Add CI/CD pipelines for automated model deployment
+
+Include Docker setup for reproducible environments
+
+Build interactive dashboards with Plotly or Streamlit for model insights
