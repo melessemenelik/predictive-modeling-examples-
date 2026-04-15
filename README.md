@@ -47,6 +47,7 @@ git clone https://github.com/melessemenelik/predictive-modeling-examples.git
 cd predictive-modeling-examples
 pip install -r requirements.txt
 python regression/housing_prices.py
+
 ### 🔮 Future Work
 - Add deep learning models (PyTorch, TensorFlow) for advanced tasks  
 - Integrate MLflow for experiment tracking and reproducibility  
