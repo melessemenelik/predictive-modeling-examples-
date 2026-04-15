@@ -49,6 +49,58 @@ python src/train_model.py --dataset housing
 - Add CI/CD pipelines for automated model deployment  
 - Include Docker setup for reproducible environments  
 - Build interactive dashboards with Plotly or Streamlit for model insights  
+## 🏗️ Architecture Diagram
+
+This project demonstrates end‑to‑end predictive modeling:
+
+                 ┌───────────────────────────────┐
+                 │        Data Sources           │
+                 │  Synthetic & Sample Datasets  │
+                 └───────────────┬───────────────┘
+                                 │
+                                 ▼
+                 ┌───────────────────────────────┐
+                 │   Preprocessing Layer         │
+                 │  Cleaning, Normalization      │
+                 │  Feature Engineering          │
+                 └───────────────┬───────────────┘
+                                 │
+                                 ▼
+                 ┌───────────────────────────────┐
+                 │   Modeling Layer              │
+                 │  Scikit‑learn, XGBoost,       │
+                 │  LightGBM Models              │
+                 └───────────────┬───────────────┘
+                                 │
+                                 ▼
+                 ┌───────────────────────────────┐
+                 │   Evaluation Layer            │
+                 │  Metrics: Accuracy, RMSE, AUC │
+                 │  Validation & Testing         │
+                 └───────────────┬───────────────┘
+                                 │
+                                 ▼
+                 ┌───────────────────────────────┐
+                 │   Interpretation Layer        │
+                 │  SHAP, LIME Explanations      │
+                 │  Model Transparency           │
+                 └───────────────┬───────────────┘
+                                 │
+                                 ▼
+                 ┌───────────────────────────────┐
+                 │   Insights & Deployment       │
+                 │  Reports, Dashboards,         │
+                 │  Deployment Scripts           │
+                 └───────────────────────────────┘
+
+Key components:
+- **[Data sources](ca://s?q=Explain_data_sources_in_predictive_modeling)**: synthetic datasets for regression & classification  
+- **[Preprocessing](ca://s?q=Explain_preprocessing_in_predictive_modeling)**: cleaning, normalization, feature engineering  
+- **[Modeling](ca://s?q=Explain_modeling_with_Scikit_learn_XGBoost_LightGBM)**: regression & classification models  
+- **[Evaluation](ca://s?q=Explain_model_evaluation_metrics_in_predictive_modeling)**: accuracy, precision, recall, RMSE, AUC  
+- **[Interpretation](ca://s?q=Explain_model_interpretation_with_SHAP_and_LIME)**: interpretable AI for transparency  
+- **[Deployment](ca://s?q=Explain_deployment_of_predictive_models)**: insights, dashboards, reproducible scripts
+
 
 ## 🔄 Predictive Modeling Workflow
 
