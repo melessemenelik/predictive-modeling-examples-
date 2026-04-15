@@ -10,11 +10,11 @@
 A collection of regression and classification projects using **Scikit‑learn**, **XGBoost**, and **LightGBM**. Includes interpretable AI with **SHAP** and **LIME**, synthetic datasets, and clear documentation to showcase end‑to‑end predictive modeling workflows.
 
 ## ⭐ Features
-- Regression projects: housing prices, demand forecasting
-- Classification projects: customer churn, healthcare risk scoring
-- Model evaluation: accuracy, precision, recall, RMSE, AUC
-- Interpretable AI: SHAP and LIME examples
-- Modular structure for easy extension
+- Regression projects: housing prices, demand forecasting  
+- Classification projects: customer churn, healthcare risk scoring  
+- Model evaluation: accuracy, precision, recall, RMSE, AUC  
+- Interpretable AI: SHAP and LIME examples  
+- Modular structure for easy extension  
 
 ## 🔄 Predictive Modeling Workflow
 
@@ -25,35 +25,3 @@ flowchart LR
     C --> D[Model Evaluation]
     D --> E[Model Interpretation]
     E --> F[Insights & Deployment]
-### 📂 Repository Structure
-predictive-modeling-examples/
-│── regression/              # Regression projects
-│   ├── housing_prices.py    # Housing price prediction
-│   ├── demand_forecasting.py # Demand forecasting
-│── classification/          # Classification projects
-│   ├── churn_prediction.py  # Customer churn
-│   ├── healthcare_risk.py   # Healthcare risk scoring
-│── interpretable_ai/        # SHAP & LIME examples
-│── data/                    # Synthetic datasets
-│── requirements.txt         # Python dependencies
-│── README.md                # Project documentation
-│── LICENSE                  # MIT License
-│── .gitignore               # Ignore build and environment files
-
-
----
-
-### 🚀 Quickstart (fine as is)
-```bash
-git clone https://github.com/melessemenelik/predictive-modeling-examples.git
-cd predictive-modeling-examples
-pip install -r requirements.txt
-python regression/housing_prices.py
-
-## 🔮 Future Work
-- Add deep learning models (PyTorch, TensorFlow) for advanced tasks  
-- Integrate MLflow for experiment tracking and reproducibility  
-- Expand interpretable AI with counterfactual explanations and fairness metrics  
-- Add CI/CD pipelines for automated model deployment  
-- Include Docker setup for reproducible environments  
-- Build interactive dashboards with Plotly or Streamlit for model insights  
