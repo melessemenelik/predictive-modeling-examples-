@@ -25,6 +25,3 @@ flowchart LR
     C --> D[Model Evaluation]
     D --> E[Model Interpretation]
     E --> F[Insights & Deployment]
-
-pip install -r requirements.txt
-python src/train_model.py --dataset housing
