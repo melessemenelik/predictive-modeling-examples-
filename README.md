@@ -33,6 +33,14 @@ cd predictive-modeling-examples
 pip install -r requirements.txt
 python src/train_model.py --dataset housing
 
+🔮 Future Work
+- Add deep learning models (PyTorch, TensorFlow) for advanced tasks  
+- Integrate MLflow for experiment tracking and reproducibility  
+- Expand interpretable AI with counterfactual explanations and fairness metrics  
+- Add CI/CD pipelines for automated model deployment  
+- Include Docker setup for reproducible environments  
+- Build interactive dashboards with Plotly or Streamlit for model insights  
+
 ## 🔄 Predictive Modeling Workflow
 
 ```mermaid
