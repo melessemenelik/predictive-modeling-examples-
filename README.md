@@ -19,7 +19,7 @@ A collection of regression and classification projects using **Scikit‑learn**,
 
 ```mermaid
 flowchart LR
-    A[📊 Data Collection<br>(Synthetic & real datasets)] --> B[🧹 Data Preprocessing<br>(Cleaning, feature engineering)]
+    A[📊 Data Collection (Synthetic & real datasets)] --> B[🧹 Data Preprocessing<br>(Cleaning, feature engineering)]
     B --> C[⚙️ Model Training<br>(Scikit-learn, XGBoost, LightGBM)]
     C --> D[📈 Model Evaluation<br>(Accuracy, Precision, Recall, RMSE, AUC)]
     D --> E[🔍 Model Interpretation<br>(SHAP, LIME)]
