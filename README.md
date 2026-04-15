@@ -25,3 +25,15 @@ flowchart LR
     C --> D[Model Evaluation]
     D --> E[Model Interpretation]
     E --> F[Insights & Deployment]
+
+├── data/               # Synthetic and sample datasets
+├── notebooks/          # Exploratory Data Analysis & experiments
+├── src/                # Modular Python scripts
+│   ├── preprocessing.py
+│   ├── models.py
+│   └── interpretation.py
+├── requirements.txt    # Library dependencies
+└── README.md           # Project documentation
+
+pip install -r requirements.txt
+python src/train_model.py --dataset housing
