@@ -16,6 +16,7 @@ A collection of regression and classification projects using **Scikit‑learn**,
 - Interpretable AI: SHAP and LIME examples  
 - Modular structure for easy extension
 
+📂 Repository Structure
 ├── data/               # Synthetic and sample datasets
 ├── notebooks/          # Exploratory Data Analysis & experiments
 ├── src/                # Modular Python scripts
