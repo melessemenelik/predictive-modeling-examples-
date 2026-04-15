@@ -26,6 +26,13 @@ A collection of regression and classification projects using **Scikit‑learn**,
 ├── requirements.txt    # Library dependencies
 └── README.md           # Project documentation
 
+🚀 Quickstart
+Clone the repo and install dependencies:
+git clone [https://github.com/melessemenelik/predictive-modeling-examples.git](https://github.com/melessemenelik/predictive-modeling-examples.git)
+cd predictive-modeling-examples
+pip install -r requirements.txt
+python src/train_model.py --dataset housing
+
 ## 🔄 Predictive Modeling Workflow
 
 ```mermaid
