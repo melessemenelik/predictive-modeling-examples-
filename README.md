@@ -38,7 +38,3 @@ flowchart LR
 ├── requirements.txt    # Library dependencies
 └── README.md           # Project documentation
 
-git clone [https://github.com/melessemenelik/predictive-modeling-examples.git](https://github.com/melessemenelik/predictive-modeling-examples.git)
-cd predictive-modeling-examples
-pip install -r requirements.txt
-python src/train_model.py --dataset housing
