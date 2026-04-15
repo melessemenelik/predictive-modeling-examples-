@@ -20,11 +20,11 @@ A collection of regression and classification projects using **Scikit‑learn**,
 
 ```mermaid
 flowchart LR
-    A[📊 Data Collection (Synthetic & real datasets)] --> B[🧹 Data Preprocessing (Cleaning, feature engineering)]
-    B --> C[⚙️ Model Training (Scikit-learn, XGBoost, LightGBM)]
-    C --> D[📈 Model Evaluation (Accuracy, Precision, Recall, RMSE, AUC)]
-    D --> E[🔍 Model Interpretation (SHAP, LIME)]
-    E --> F[📊 Insights & Deployment (Reports, dashboards, reproducible demos)]
+    A[Data Collection (Synthetic & real datasets)] --> B[Data Preprocessing (Cleaning, feature engineering)]
+    B --> C[Model Training (Scikit-learn, XGBoost, LightGBM)]
+    C --> D[Model Evaluation (Accuracy, Precision, Recall, RMSE, AUC)]
+    D --> E[Model Interpretation (SHAP, LIME)]
+    E --> F[Insights & Deployment (Reports, dashboards, reproducible demos)]
 
 ### 📂 Repository Structure
 predictive-modeling-examples/
@@ -41,15 +41,17 @@ predictive-modeling-examples/
 │── LICENSE                  # MIT License
 │── .gitignore               # Ignore build and environment files
 
-## 🚀 Quickstart
-Clone the repo and install dependencies:
+
+---
+
+### 🚀 Quickstart (fine as is)
 ```bash
 git clone https://github.com/melessemenelik/predictive-modeling-examples.git
 cd predictive-modeling-examples
 pip install -r requirements.txt
 python regression/housing_prices.py
 
-### 🔮 Future Work
+## 🔮 Future Work
 - Add deep learning models (PyTorch, TensorFlow) for advanced tasks  
 - Integrate MLflow for experiment tracking and reproducibility  
 - Expand interpretable AI with counterfactual explanations and fairness metrics  
