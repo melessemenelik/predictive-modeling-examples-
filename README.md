@@ -25,16 +25,3 @@ flowchart LR
     C --> D[Model Evaluation]
     D --> E[Model Interpretation]
     E --> F[Insights & Deployment]
-
-## 📂 Repository Structure
-
-```text
-├── data/               # Synthetic and sample datasets
-├── notebooks/          # Exploratory Data Analysis & experiments
-├── src/                # Modular Python scripts
-│   ├── preprocessing.py
-│   ├── models.py
-│   └── interpretation.py
-├── requirements.txt    # Library dependencies
-└── README.md           # Project documentation
-
