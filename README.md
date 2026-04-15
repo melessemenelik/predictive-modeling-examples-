@@ -17,7 +17,6 @@ A collection of regression and classification projects using **Scikit‑learn**,
 - Modular structure for easy extension
 
 ## 🔄 Predictive Modeling Workflow
-
 ```mermaid
 flowchart LR
     A[Data Collection (Synthetic & real datasets)] --> B[Data Preprocessing (Cleaning, feature engineering)]
