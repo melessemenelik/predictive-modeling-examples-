@@ -15,15 +15,16 @@ A collection of regression and classification projects using **Scikit‑learn**,
 - Model evaluation: accuracy, precision, recall, RMSE, AUC
 - Interpretable AI: SHAP and LIME examples
 - Modular structure for easy extension
+
 ## 🔄 Predictive Modeling Workflow
 
 ```mermaid
 flowchart LR
-    A[📊 Data Collection (Synthetic & real datasets)] --> B[🧹 Data Preprocessing<br>(Cleaning, feature engineering)]
-    B --> C[⚙️ Model Training<br>(Scikit-learn, XGBoost, LightGBM)]
-    C --> D[📈 Model Evaluation<br>(Accuracy, Precision, Recall, RMSE, AUC)]
-    D --> E[🔍 Model Interpretation<br>(SHAP, LIME)]
-    E --> F[📊 Insights & Deployment<br>(Reports, dashboards, reproducible demos)]
+    A[📊 Data Collection (Synthetic & real datasets)] --> B[🧹 Data Preprocessing (Cleaning, feature engineering)]
+    B --> C[⚙️ Model Training (Scikit-learn, XGBoost, LightGBM)]
+    C --> D[📈 Model Evaluation (Accuracy, Precision, Recall, RMSE, AUC)]
+    D --> E[🔍 Model Interpretation (SHAP, LIME)]
+    E --> F[📊 Insights & Deployment (Reports, dashboards, reproducible demos)]
 
 ### 📂 Repository Structure
 predictive-modeling-examples/
